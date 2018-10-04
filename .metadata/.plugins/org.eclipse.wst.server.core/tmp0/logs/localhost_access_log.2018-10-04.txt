@@ -1,0 +1,12 @@
+127.0.0.1 - - [04/Oct/2018:21:58:56 +0300] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [04/Oct/2018:21:58:56 +0300] "GET /Servlet/FirstServlet HTTP/1.1" 200 293
+0:0:0:0:0:0:0:1 - - [04/Oct/2018:21:59:08 +0300] "GET /Servlet/FirstServlet HTTP/1.1" 200 293
+0:0:0:0:0:0:0:1 - - [04/Oct/2018:21:59:09 +0300] "GET /favicon.ico HTTP/1.1" 404 1047
+0:0:0:0:0:0:0:1 - - [04/Oct/2018:21:59:22 +0300] "POST /Servlet/FirstServlet HTTP/1.1" 200 317
+0:0:0:0:0:0:0:1 - - [04/Oct/2018:21:59:36 +0300] "POST /Servlet/FirstServlet HTTP/1.1" 200 317
+0:0:0:0:0:0:0:1 - - [04/Oct/2018:21:59:39 +0300] "POST /Servlet/FirstServlet HTTP/1.1" 200 313
+127.0.0.1 - - [04/Oct/2018:22:02:19 +0300] "GET / HTTP/1.1" 404 1036
+0:0:0:0:0:0:0:1 - - [04/Oct/2018:22:02:19 +0300] "GET /Servlet/FirstServlet HTTP/1.1" 200 249
+0:0:0:0:0:0:0:1 - - [04/Oct/2018:22:02:27 +0300] "GET /Servlet/FirstServlet HTTP/1.1" 200 249
+0:0:0:0:0:0:0:1 - - [04/Oct/2018:22:02:30 +0300] "POST /Servlet/FirstServlet HTTP/1.1" 200 274
+0:0:0:0:0:0:0:1 - - [04/Oct/2018:22:02:42 +0300] "POST /Servlet/FirstServlet HTTP/1.1" 200 301
