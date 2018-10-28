@@ -8,6 +8,6 @@
 <booleanAttribute key="org.eclipse.jdt.launching.DEFAULT_CLASSPATH" value="false"/>
 <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_181"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="start"/>
-<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;E:\Work\Eclipse Workspace EE version\.metadata\.plugins\org.eclipse.wst.server.core\tmp0&quot; -Dcatalina.home=&quot;E:\Work\Apache Tomcat\apache-tomcat-7.0.91&quot; -Dwtp.deploy=&quot;E:\Work\Eclipse Workspace EE version\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps&quot; -Djava.endorsed.dirs=&quot;E:\Work\Apache Tomcat\apache-tomcat-7.0.91\endorsed&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dcatalina.base=&quot;C:\Users\todor\Desktop\Repos\Domashni po IP\NetProg-Homeworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0&quot; -Dcatalina.home=&quot;E:\Work\Apache Tomcat\apache-tomcat-7.0.91&quot; -Dwtp.deploy=&quot;C:\Users\todor\Desktop\Repos\Domashni po IP\NetProg-Homeworks\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps&quot; -Djava.endorsed.dirs=&quot;E:\Work\Apache Tomcat\apache-tomcat-7.0.91\endorsed&quot;"/>
 <stringAttribute key="server-id" value="Tomcat v7.0 Server at localhost"/>
 </launchConfiguration>

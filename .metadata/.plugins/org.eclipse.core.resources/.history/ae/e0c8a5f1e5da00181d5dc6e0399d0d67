@@ -1,0 +1,54 @@
+package org.elsys.netprog.rest;
+
+import org.json.simple.JSONObject;
+
+public class BulsAndCows {
+	private static String Id;
+	private String RealNumber;
+	private static boolean success = false;
+	private static int Cows = 0;
+	private static int Bulls = 0;
+	private static int turn  = 0;
+	
+	public BulsAndCows(String id,String realnumber){
+		Id = id;
+		RealNumber = realnumber;
+	}
+	
+	public String getId(){
+		return Id;
+	}
+	
+	public void checkGame(Integer guess) throws Exception {
+		if(hasDuplicates(guess)) throw new Exception();
+		
+		bulls = 0;
+		cows = 0;
+		
+		turnsCount++;
+
+		String guessStr = guess.toString();
+		String secretStr = secret.toString();
+		
+		for(int i = 0; i < secretStr.length(); i++) {
+			if(secretStr.substring(i, i + 1).equals(guessStr.substring(i, i + 1))) bulls++;
+			else if(secretStr.contains(guessStr.substring(i, i + 1))) cows++;
+			
+			if(this.getBulls() == 4) {
+				cows = 0;
+				this.setSuccess(true);
+			}
+		}
+	}
+	
+	public static JSONObject returnjobj() {
+		JSONObject obj = new JSONObject();				
+		obj.put("gameId", Id);
+		obj.put("cowsNumber", Cows);
+		obj.put("bullsNumber", Bulls);
+		obj.put("turnsCount",turn);
+		obj.put("success", success );
+		return obj;
+	}
+
+}

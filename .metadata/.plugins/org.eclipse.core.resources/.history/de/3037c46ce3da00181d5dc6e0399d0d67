@@ -1,0 +1,32 @@
+package org.elsys.netprog.rest;
+
+import org.json.simple.JSONObject;
+
+public class BulsAndCows {
+	private String Id;
+	private String RealNumber;
+	private boolean success = false;
+	
+	public BulsAndCows(String id,String realnumber){
+		Id = id;
+		RealNumber = realnumber;
+	}
+	
+	public String getId(){
+		return Id;
+	}
+	
+	public String Guess(){
+            JSONObject json = new JSONObject(line);
+           
+            String key = (String) json.get("key");
+            String value = (String) json.get("value");
+           
+            if (!data.containsKey(key)) {
+                data.put(key, value);
+                response.getWriter().append("Successfully added key value pair!")
+                .append(System.lineSeparator());
+            }
+
+	}
+}
