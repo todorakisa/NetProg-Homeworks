@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="IntegrationTest" project="jersey-rest-homework" tests="3" started="3" failures="0" errors="0" ignored="0">
-  <testsuite name="org.elsys.netprog.rest.test.IntegrationTest" time="57.51">
-    <testcase name="testWrongInput" classname="org.elsys.netprog.rest.test.IntegrationTest" time="2.218"/>
-    <testcase name="playTwoGames" classname="org.elsys.netprog.rest.test.IntegrationTest" time="0.191"/>
-    <testcase name="playGame" classname="org.elsys.netprog.rest.test.IntegrationTest" time="55.101"/>
-  </testsuite>
-</testrun>
