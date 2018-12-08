@@ -1,10 +1,10 @@
 regExps = {
 "exercise_1": /[A-Z][a-z]+/,
-"exercise_2": /088[1-7]\d{6}/,
-"exercise_3": /l|OO|2/,
+"exercise_2": /088[1-9]\d{6}/,
+"exercise_3": /[^\d]+|2/,
 "exercise_4": /^[^._0-9n].*$/,
 "exercise_5": /1[0-5]00|999|1[0-4][0-9][0-9]/,
-"exercise_6": /class='.*'|class=".*"/
+"exercise_6": /class=['"].*['"]/
 };
 cssSelectors = {
 "exercise_1": "css > item > java",
