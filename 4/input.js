@@ -1,9 +1,9 @@
 regExps = {
 "exercise_1": /[A-Z][a-z]+/,
 "exercise_2": /088[1-9]\d{6}/,
-"exercise_3": /[^\d]+|2/,
+"exercise_3": /[^10]+/,
 "exercise_4": /^[^._0-9n].*$/,
-"exercise_5": /1[0-5]00|999|1[0-4][0-9][0-9]/,
+"exercise_5": /1500|999|1[0-4][0-9][0-9]/,
 "exercise_6": /class=['"].*['"]/
 };
 cssSelectors = {
