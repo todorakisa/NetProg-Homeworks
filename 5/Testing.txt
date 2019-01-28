@@ -1,0 +1,4 @@
+1 - lenght -> up to 1 seconds wait to get the hash
+2 - lenght -> up to 4 - 5 seconds wait to get the hash
+3 - lenght -> up to 4-5 minutes wait to get the hash
+4 - lenght -> up to 20 minutes wait to get the hash
